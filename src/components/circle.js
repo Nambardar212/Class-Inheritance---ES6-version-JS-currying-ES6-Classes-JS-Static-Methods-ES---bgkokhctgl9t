@@ -7,8 +7,8 @@
 var Shape = require('./shape.js');
 
 class Circle extends Shape {
-     constructor(color) {
-          super(color);
+     constructor(name) {
+          super(name);
      }
      calculateArea(radius) {
          return Math.PI * Math.pow(radius,2);
