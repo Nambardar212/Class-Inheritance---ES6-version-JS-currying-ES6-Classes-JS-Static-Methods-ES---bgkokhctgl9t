@@ -3,4 +3,4 @@ import Shape from "./shape.js";
 import Circle from "./circle.js";
 
 
-module.export = App;
+module.exports = App;
