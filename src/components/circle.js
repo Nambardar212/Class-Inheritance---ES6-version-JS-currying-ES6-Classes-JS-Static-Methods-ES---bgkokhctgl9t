@@ -4,15 +4,27 @@
 
 
 // export class using module.exports
-var Shape = require('./shape.js');
+const Shape = require('./shape');
 
-class Circle extends Shape {
-     constructor(name) {
-          super(name);
-     }
-     calculateArea(radius) {
-         return Math.PI * Math.pow(radius,2);
-     }
+
+ 
+
+// declare class
+
+let Circle = class extends Shape {
+
+    calculateArea() {
+
+        console.log("Area Calculating for Circle");
+
+    }
+
 }
+
+
+
+ 
+
+// export class using module.exports
 
 module.exports = Circle;
